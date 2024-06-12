@@ -1,15 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./images/navbar/logo.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./images/navbar/logo.png" />
     <title>food-restaurant</title>
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
     <div class="main-container">
-        <h1>Welcome to World</h1>
+      <header>
+        <nav class="navbar">
+          <div class="logo">
+            <img src="./images/navbar/logo.png" alt="logo" />
+          </div>
+
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+
+          <div class="nav-search-box">
+            <div class="search-icon">
+              <img src="./images/navbar/search-icon.png" alt="search" />
+              <input type="text" placeholder="search" />
+            </div>
+            <div class="nav-cart">
+              <img src="./images/navbar/cart.png" alt="cart" />
+            </div>
+          </div>
+        </nav>
+
+        <!-- // === Hero Section Start === -->
+
+        <section class="hero-section">
+          <div class="order-now-section">
+            <div class="bike-delivery">
+                <button>Bike Delivery</button>
+                <img src="./images/hero-section/bike.png" alt="">
+            </div>
+
+            <div class="title">
+              <h1>The Fastest <span class="text-color">Delivery</span> <br> In <span class="text-color">Your City</span></h1>
+            </div>
+
+            <div class="description">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum possimus quia, minima impedit nisi consectetur assumenda, aperiam, ipsam suscipit unde tenetur sint beatae ea nulla asperiores et eos. Quo, sit.</p>
+            </div>
+
+            <div class="order-process">
+                <div class="order-btn">
+                    <button>Order Now</button>
+                </div>
+                <div class="process-icon">
+                    <img src="./images/hero-section/order-process-icon.png" alt="">
+                    <button>order process</button>
+                </div>
+            </div>
+          </div>
+
+          <div class="food-items">
+            <div class="food-item">
+              <img src="./images/hero-section/burger.png" alt="" />
+                <div class="food-desc">
+                    <h3>Burger</h3>
+                    <p>Mushroom Sauce</p>
+                    <p><span class="dollar-sign">$</span>5.15</p>
+                </div>
+            </div>
+
+            <div class="food-item">
+              <img src="./images/hero-section/junk-food.png" alt="" />
+                <div class="food-desc">
+                    <h3>Food Combo</h3>
+                    <p>Mushroom Sauce</p>
+                    <p><span class="dollar-sign">$</span>10.15</p>
+                </div>
+            </div>
+            <div class="food-item">
+              <img src="./images/hero-section/pizza.png" alt="" />
+                <div class="food-desc">
+                    <h3>Pizza</h3>
+                    <p>Mushroom Sauce</p>
+                    <p><span class="dollar-sign">$</span>9.15</p>
+                </div>
+            </div>
+            <div class="food-item">
+              <img src="./images/hero-section/cake.png" alt="" />
+                <div class="food-desc">
+                    <h3>Cake</h3>
+                    <p>Mushroom Sauce</p>
+                    <p><span class="dollar-sign">$</span>5.15</p>
+                </div>
+            </div>
+           
+          </div>
+        </section>
+
+        <!-- // === Hero Section End === -->
+      </header>
     </div>
-</body>
+  </body>
 </html>

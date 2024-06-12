@@ -3,8 +3,187 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;  ;
 }
 :root{
     --primary: #F48E28; 
-    --font: "Inter", sans-serif;  
+}
+
+/* // common styles == */
+.main-container{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid palevioletred;
+}
+
+/* navbar styles start from here  */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color:#000;
+}
+
+
+.nav-search-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.1);
+    padding: 0 12px;
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.search-icon img{
+    height: 20px;
+    width:20px;
+    margin-top: 6px;
+}
+.search-icon input{
+    outline: none;
+    border: transparent;
+    padding:5px 0;
+    border-right: 2px solid rgba(0, 0, 0, 0.15);
+}
+::placeholder{
+    font-size: 16px;
+}
+.nav-cart{
+    display: flex;
+}
+.nav-cart img{
+   height: 44px;
+   width: 404x;
+   margin-bottom: 10px;
+}
+/* navbar styles end here  */
+.hero-section{
+    display: flex;
+    padding: 40px 0;
+}
+.order-now-section{
+    width: 50%;
+}
+.bike-delivery{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(245, 221, 196, 1);
+    width:35%;
+    border-radius: 31.5px;
+    padding: 0 5px;
+    margin: 10px 0 60px 0;
+}
+.bike-delivery button{
+    outline: none;
+    border: transparent;
+    background-color: transparent;
+    margin-left: 20px;
+    font: 18px;
+    font-weight: bold;
+    color: var(--primary);
+}
+.bike-delivery img{
+   width: 45px;
+   height: 45px;
+   border-radius: 50%;
+}
+
+.title h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    margin: 70px 0;
+}
+.text-color{
+    color: var(--primary);
+}
+.description p{
+    font-size: 18px;
+    line-height: 27px;
+    margin:70px 0;
+}
+.order-process{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.process-icon{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.process-icon button{
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.process-icon img{
+    width:30px;
+    height: auto;
+}
+.order-btn button{
+    background-color: var(--primary);
+    border-radius: 10px;
+    color:#fff;
+    padding: 18px 50px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+
+.food-items{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:5px;
+}
+.food-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+.food-item img{
+    width:240px;
+    height: 240px;
+}
+.food-desc{
+    text-align: center;
+    line-height: 30px;
+    margin-top: -40px;
+}
+.food-desc h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+/* .food-desc p{
+    font-weight: bold;
+} */
+.dollar-sign{
+    color:var(--primary);
 }
