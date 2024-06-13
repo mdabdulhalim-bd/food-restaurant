@@ -139,8 +139,6 @@
 
   .footer-container{
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     padding: 100px 0 50px 0;
   }
   .footer-logo,
@@ -150,20 +148,13 @@
     width:100%;
   }
   .footer-logo{
-    align-items: center;
-  }
-  .open-restuarant{
-    align-items: center;
+    padding: 0px;
   }
   .user-link{
-    align-items: center;
     margin-top: 40px;
     gap:20px;
   }
-  .footer-link{
-    align-items: center!important;
-    
-  }
+ 
   .contact-us{
     display: flex;
     flex-direction: column;
