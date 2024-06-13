@@ -38,6 +38,7 @@
         <!-- // === Hero Section Start === -->
 
         <section class="hero-section">
+          <div class="arrow-img"><img src="./images/hero-section/polygon.png" alt=""></div>
           <div class="order-now-section">
             <div class="bike-delivery mouse-hover">
               <button>Bike Delivery</button>
@@ -53,10 +54,7 @@
 
             <div class="description">
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Laborum possimus quia, minima impedit nisi consectetur
-                assumenda, aperiam, ipsam suscipit unde tenetur sint beatae ea
-                nulla asperiores et eos. Quo, sit.
+                Customers place their orders via an app or website, selecting their desired food items.he restaurant receives and confirms the order,The kitchen staff quickly prepares the food.The food is delivered to the customer’s door, hot and fresh, usually within 30 minutes or less.
               </p>
             </div>
 
@@ -360,10 +358,10 @@
                 
               </p>
             </div>
-            <div class="subscribe-field">
-              <input type="text" placeholder="Your email here ...">
+            <form action="#" onsubmit="handleFormSubmit(event)" class="subscribe-field">
+              <input type="email" placeholder="Your email here ..." name="email">
               <button class="mouse-hover">subscribe</button>
-            </div>
+            </form>
           </div>
         </section>
       </main>
@@ -415,5 +413,7 @@
         </div>
       </footer>
     </div>
+
+    <script src="./js/scripts.js"></script>
   </body>
 </html>
