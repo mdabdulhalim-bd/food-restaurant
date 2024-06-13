@@ -476,3 +476,99 @@ ul li a {
     font-size: 14px;
     color: #fff;
 }
+
+
+
+/* //===================== Footer Section  */
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 50px 0;
+}
+.footer-logo,
+.open-restuarant,
+.user-link,
+.contact-us{
+  width:25%;
+}
+.footer-logo{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color:gray;
+  padding: 0 40px;
+}
+.social-icons img{
+  margin: 10px;
+}
+
+.open-restuarant{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.time-schedule{
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  color:gray;
+}
+
+
+/* // ========== User link  */
+.user-link{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.footer-link li{
+  list-style: none;
+}
+.footer-link li a{
+  text-decoration: none;
+  color:gray;
+  line-height: 30px;
+}
+
+
+
+
+/* // ============ contact us  */
+.contact-us{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.email-field{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 10px 6px;
+  border-radius: 30px;
+}
+.email-field input{
+  outline: none;
+  border: transparent;
+  padding: 10px 6px;
+  font-size: 14px;
+}
+.location{
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+  color: gray;
+}
+.right-arrow{
+  width:40px;
+  height:40px;
+  background-color: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+::placeholder{
+  color: gray;
+}
