@@ -170,3 +170,167 @@
     gap: 60px;
   }
 }
+
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+    }
+    ul li a {
+      font-size: 13px;
+      font-weight: 400;
+    }
+    h3 {
+      font-weight: bold;
+      font-size: 16px;
+    }
+  
+    .hero-section {
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 0;
+    }
+    .order-now-section {
+      width: 100%;
+    }
+    .bike-delivery {
+      width: 60%;
+    }
+    .title h1 {
+      font-size: 40px;
+    }
+    .description p {
+      font-size: 14px;
+      margin: 30px 0 !important;
+    }
+    .order-process {
+      flex-direction: column;
+      gap: 30px;
+    }
+    .food-items {
+      width: 100%;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .food-item img {
+      width: 170px;
+      height: 170px;
+    }
+    .contact {
+      padding: 50px 0;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .contact-details {
+      padding-right: 0;
+    }
+    .border {
+      border-right: none;
+    }
+    .product-items {
+      padding: 40px 0;
+    }
+    .item-container {
+      width: 100%;
+      flex-direction: column;
+    }
+    .item {
+      width: 100%;
+    }
+    .product-title {
+      font-size: 30px;
+    }
+    .services {
+      padding: 40px 0;
+    }
+    .featureds {
+      flex-direction: column;
+    }
+    .single-featured {
+      width: 100%;
+    }
+    .single-featured:hover {
+      transform: scale(0.9) !important;
+    }
+    .client-feedback-area {
+      flex-direction: column;
+      padding: 40px 0;
+    }
+  
+    .testimonial-slider {
+      width: 100%;
+      padding: 30px;
+      font-size: 14px;
+    }
+    .client {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .burger {
+      width: 80%;
+      align-items: center;
+    }
+    .newsletter {
+     flex-direction: column;
+      width: 100%;
+      padding: 20px;
+    }
+    .subscriber-area {
+      width: 100%;
+    }
+    .subs-desc {
+      width: 100%;
+    }
+    .subscribe-field {
+      justify-content: space-around;
+      width: 100%;
+    }
+    
+    
+  .subscribe-field input {
+      outline: none;
+      border: transparent;
+      padding: 10px 7px;
+      font-size: 14px;
+    }
+    .subscribe-field button {
+      padding: 10px 7px;
+    }
+  
+    .nav-next,
+    .nav-prev {
+      width: 30px;
+      height: 30px;
+    }
+    .nav-prev {
+      left: -10px;
+    
+    }
+    .nav-next{
+      right:-10px;
+    }
+  
+    .footer-container{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 100px 0 50px 0;
+    }
+    .footer-logo,
+    .open-restuarant,
+    .user-link,
+    .contact-us{
+      width:100%;
+    }
+    .user-link{
+      margin-top: 40px;
+      gap:20px;
+    }
+   
+    .contact-us{
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+    }
+  }
